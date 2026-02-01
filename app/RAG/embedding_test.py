@@ -25,14 +25,14 @@ upstage_client = OpenAI(
 
 #Example1
 king_embedding_response = upstage_client.embeddings.create(
-    input="왕",
+    input="곤충",
     model="solar-embedding-1-large-query"
 )
 king_vector = np.array(king_embedding_response.data[0].embedding)
 
 #Example2
 queen_embedding_response = upstage_client.embeddings.create(
-    input="여왕",
+    input="개미",
     model="solar-embedding-1-large-query"
 )
 queen_vector = np.array(queen_embedding_response.data[0].embedding)
