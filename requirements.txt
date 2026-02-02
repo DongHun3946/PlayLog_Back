@@ -96,3 +96,5 @@ wcwidth==0.2.14
 yarl==1.22.0
 zipp==3.23.0
 zstandard==0.25.0
+
+streamlit~=1.50.0
